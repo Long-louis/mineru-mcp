@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mineru-mcp-server"
+version = "0.1.0"
+description = "FastMCP server for batch converting PDF to HTML via Mineru API"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp",
+    "requests"
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+run-mineru-mcp = "mineru_mcp_server.main:start_server"
