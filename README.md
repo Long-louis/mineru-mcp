@@ -42,7 +42,7 @@ mineru-mcp-server --transport http --host 127.0.0.1 --port 4399
 
 ### 方式二：`uvx` 一键运行（推荐给 MCP 客户端配置）
 ```powershell
-uvx --from git+https://github.com/<your-account>/<your-repo> mineru-mcp-server
+uvx --from git+https://github.com/Long-louis/mineru-mcp mineru-mcp-server
 ```
 
 ## mcp.json 一键配置示例
@@ -53,7 +53,7 @@ uvx --from git+https://github.com/<your-account>/<your-repo> mineru-mcp-server
       "command": "uvx",
       "args": [
         "--from",
-        "git+https://github.com/<your-account>/<your-repo>",
+        "git+https://github.com/Long-louis/mineru-mcp",
         "mineru-mcp-server"
       ],
       "env": {
