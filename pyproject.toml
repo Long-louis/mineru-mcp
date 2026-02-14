@@ -17,4 +17,4 @@ dependencies = [
 dev = ["pytest"]
 
 [project.scripts]
-run-mineru-mcp = "mineru_mcp_server.main:start_server"
+mineru-mcp-server = "mineru_mcp_server.main:start_server"
